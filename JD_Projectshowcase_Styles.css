@@ -1,0 +1,81 @@
+@charset "utf-8";
+
+/*
+		COP2822C Project Showcase Website CSS Main
+		
+		Author: John Dallaire
+		Filename: JD_Projectshowcase_Styles.css
+*/
+
+html {
+   background: rgb(139, 188, 233);
+ 
+}
+
+body{
+	font-family: Arial;
+	margin: 0;
+	padding: 0;
+}
+header{
+	background: linear-gradient(to right, rgb(166, 222, 254) 20%, rgb(243, 139, 0));
+    border-bottom: 1px solid rgb(3, 51, 86);
+	text-align: center;
+	padding-top: 1px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+header nav ul {
+   background-color: #333333;
+   margin: 0;
+   padding: 0;
+  
+   
+ 
+}
+
+header nav ul li {
+	
+	display: inline-block;
+
+	
+}
+header nav ul li a{
+	
+	text-decoration:none;
+	color: white;
+	font-size: 15px;
+	padding: 25px 20px;
+	width:100%;
+	display: block;
+	text-transform: uppercase;
+	text-align:center;
+	font-weight: bold;
+	
+}
+
+header nav ul li a:hover{
+	background: orange;
+}
+
+article nav ul li{
+	text-align:center;
+	list-style: none;
+	
+}
+
+article nav ul li a{
+	text-decoration:none;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	border-top: solid 3px;
+	border-bottom:solid 3px;
+	padding: 3px;
+	background-color: gray;
+	text-align: center;
+}
+

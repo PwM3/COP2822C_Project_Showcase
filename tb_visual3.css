@@ -1,0 +1,111 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 4
+   Review Assignment
+   
+   Design Style Sheet for Tree and Book Family Home Page
+   Author: John Dallaire  
+   Date:   5/18/2022
+   
+   Filename: tb_visual3.css
+
+*/
+
+/* HTML Styles */
+
+html{background-image: url(tb_back5.png);}
+
+
+/* Page Body Styles */
+
+body{ 
+  border-left: 3px solid rgb(169, 130, 88);
+  border-right: 3px solid rgb(169, 130, 88);
+  box-shadow: rgb(53,21,0);
+}
+
+/* Main Styles */
+
+main{
+  background-image: url(tb_back7.png);
+  background-size: cover;
+  box-shadow: rgb(71,71,71) 10px 10px 25px inset, rgb(71,71,71) -10px -10px 25px inset;
+				
+}
+
+/* Figure Box Styles */
+
+figure{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+
+}
+
+figure img{
+  
+  border-image:url(tb_frame.png) 60 stretch;
+  border-width: 25px;
+  border-style:solid;
+  display:block;
+	width:100%;
+	-webkit-filter:sepia(0.8);
+}
+
+figure figcaption{
+  font-family: 'Palatino Linotype', Palatino, 'Times New Roman', serif ;
+  font-style: italic;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 0px;
+  padding-right:0px;
+  text-align: center;
+  
+}
+
+
+/* Article Styles */
+article{
+  background-image: url(tb_back6.png);
+  background-position: bottom right;
+  background-size: 15%;
+  background-repeat: no-repeat;
+
+  
+  border-right: double 8px;
+  border-bottom: double 8px;
+  border-color:rgb(147, 116, 68);
+  border-bottom-right-radius: 80px;
+  box-shadow:inset -10px -10px 25px rgba(184, 154, 112, 0.7) ;
+  
+  
+
+}
+
+
+/* Footer Styles */
+/* https://www.w3schools.com/css/css3_gradients.asp */
+
+footer{
+  background: linear-gradient(
+    325deg, rgb(180,148,104) 20%,
+      rgb(40,33,23) 60%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
